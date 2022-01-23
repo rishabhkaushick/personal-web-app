@@ -19,6 +19,13 @@ a{
     padding: 2.5%;
 }
 
+span{
+    position: absolute;
+    font-size: 140%;
+    top: 5%;
+    left: 5%;
+}
+
 .center{
     display: flex;
     /* vertical-align: baseline; */
@@ -30,6 +37,33 @@ a{
 .heading{
     /* color: whitesmoke; */
     padding: 5%;
+}
+
+/* styling for the side navigation panel */
+.sideNav{
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    /* background-color: darkgray; */
+    overflow-x: hidden;
+    transition: 0.25s;
+    padding-top: 5%;
+}
+
+.sideNav .closebtn{
+    position: absolute;
+    top: 0%;
+    right: 10%;
+    font-size: 36px;
+    color: black;
+} 
+
+.sideNav a{
+    font-size: 110%;
+    color: peachpuff;
 }
 
 /* ICONS*/
