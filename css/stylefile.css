@@ -59,11 +59,20 @@ span{
     right: 10%;
     font-size: 36px;
     color: black;
-} 
+}
+
+.sideNav .closebtn:hover{
+    text-decoration: none;
+}
 
 .sideNav a{
     font-size: 110%;
-    color: peachpuff;
+    color: gold;
+    text-decoration: none;
+}
+
+.sideNav a:hover{
+    text-decoration: underline;
 }
 
 /* ICONS*/
