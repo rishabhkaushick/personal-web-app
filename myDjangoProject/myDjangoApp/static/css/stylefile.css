@@ -80,6 +80,7 @@ span{
     padding-left: 5%;
     padding-right: 5%;
     color: black;
+    font-size: 48px; /* in the future change this to rem or em */
 }
 
 /* Hovering effect on icons */
